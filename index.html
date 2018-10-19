@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="obrigada.php" method="post">
+        <div class="box-vazio flex">
+            <label for="texto" class="pergunta">Texto</label>
+            <input type="text" name="texto">
+        </div>
+
+        <div class="box-vazio flex">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha">
+        </div>
+
+        <div class="check-box flex">
+            <label for="multiplas-escolhas">Escolha um ou múltiplas opções</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="multiplas-escolhas" value="Mulher">Mulher
+                </li>
+                <li>
+                    <input type="checkbox" name="multiplas-escolhas" valeu="Podersa">Poderosa
+                </li>
+                <li>
+                    <input type="checkbox" name="multiplas-escolhas" valeu="Linda">Linda
+                </li>
+                <li>
+                    <input type="checkbox" name="multiplas-escolhas" valeu="Maravilhosa">Maravilhosa
+                </li>
+            
+            </ul>
+        </div>
+
+        <div class="radio-box flex">
+            <label for="uma-opcao">Escolha uma opção</label>
+            <ul>
+                <li>
+                    <input type="radio" name="uma-opcao" value="super-força">Super força 
+                </li>
+                <li>
+                    <input type="radio" name="uma-opção" value="ser-invisivel">Ser invisível
+                </li>
+                <li>
+                    <input type="radio" name="uma-opção" value="ler-mentes">Ler mentes
+                </li>
+                <li>
+                    <input type="radio" name="uma-opção" value="super-velocidade">Super velocidade  
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="select flex">
+            <label for="um-topico">Selecione um tópico</label>
+            <select name="um-topico">
+                <option valeu="site-mais-bonito">Deixar meu site mais bonito</option>
+                <option valeu="site-mais-rapido">Deixar meu site mais rápido</option>
+            </select>
+        </div>
+
+        <div class="box-vazio flex">
+            <label for="um-valor">Escolha um valor</label>
+            <input type="number" name="um-valor">
+        </div>
+
+        <div class="box vazio flex">
+            <label for="comentario">Comentário</label>
+            <textarea name="comentario" rows="5" maxlength="500"></textarea>
+        </div>
+
+        <div class="botoes">
+            <input class="reset" type="reset" value="Reset">
+            <input class="submit" type="submit" value="Submit">
+        </div>
+
+</body>
+</html>

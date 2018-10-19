@@ -1,0 +1,93 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: auto;
+    width: 700px;
+}
+
+.flex {
+    display: flex;
+}
+
+textarea, input {     
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li input {
+    margin-right: 8px;
+}
+
+select {
+    align-items: center;
+    background-color: white;
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'%3E%3C/path%3E%3C/svg%3E");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield ;
+    text-align-last: center;
+    text-align: center;
+}
+
+label {
+    padding-right: 20px;
+    text-align: end;
+    width: 50%;
+}
+
+input[type="text"], 
+input[type="password"],
+input[type="number"],
+select {
+    border: 1px solid #d3d3d3;
+    font-size: 14px;
+    height: 30px;
+    width: 35%;
+}
+
+textarea {
+    width: 35%;
+    height: 150px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    background-color: #d3d3d3;
+    border-radius: 0.5em;
+    color: gray;
+    font-weight: bold;
+    margin: 0px 15px 0px 210px;
+    padding: 10px 20px;
+}
+
+.submit {
+    background-color: #009ab2;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
